@@ -1,11 +1,12 @@
 # SARA_Code
 Matlab code for SARA (Seismic Amplitude Ratio Analysis) used in the paper *"Assessing the potential to detect magma migration using seismicity through the analysis of the seismic network design"* 
-The code in this repo uses an excerpt of the seismic network of Piton de la Fournaise. This can easily be changed to another network providing the user knows the location of the seismic stations as well as some basic parameters like the summit of the volcano
+
+The code in this repo uses an excerpt of the seismic network of Piton de la Fournaise (PdF). This can easily be changed to another network providing the user knows the location of the seismic stations as well as some basic parameters like the summit of the volcano.
 
 ## Details of the Files
-* detect_positions_piton.m
-* detect_add_positions_piton.m
-* detect_remove_positions_piton.m
+* detect_positions_piton.m - runs the SARA detection capability analysis and plots the output
+* detect_add_positions_piton.m - adds new stations to the PdF network, runs the the SARA detection capability analysis, and compares the results to results gained from detect_positions_piton.
+* detect_remove_positions_piton.m - removes existing stations from the PdF network, runs the the SARA detection capability analysis, and compares the results to results gained from detect_positions_piton.
 
 ## How to Run
 Running the code is pretty simple. The user can alter the parameters i.e. migration length, threshold, grid spacing if they wish.
