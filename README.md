@@ -10,12 +10,19 @@ The code in this repo uses an excerpt of the seismic network of Piton de la Four
 
 ## How to Run
 Running the code is pretty simple. The user can alter the parameters i.e. migration length, threshold, grid spacing if they wish.
-Currently the code is set up to analyse vertical migrations of ... using a threshold of 
+Currently the code is set up to analyse vertical migrations of 1km using a threshold of 0.1
 
 ## External Functions
-External functions are used in the code and the below explains where you can download each from. I would additionally like to thank the authors of these codes.
+External functions are used in the code and the below explains where you can download each from. I would like to thank the authors of these codes.
 
-* "utm2deg" and "deg2utm" (Rafael Palacios, 2006)
+* utm2deg.m and deg2utm.m (Rafael Palacios, 2006)
   * Rafael Palacios (2022). utm2deg (https://www.mathworks.com/matlabcentral/fileexchange/10914-utm2deg), MATLAB Central File Exchange. Retrieved November 24, 2022.
   * Rafael Palacios (2022). deg2utm (https://www.mathworks.com/matlabcentral/fileexchange/10915-deg2utm), MATLAB Central File Exchange. Retrieved November 24, 2022.
+  *
+* GetSRTMData.m (Sebastian Hölz, 2004). Note for this function that the users will need NASA SRTM elevation files.
+  * Sebastian Hölz (2022). GetSRTMData (https://www.mathworks.com/matlabcentral/fileexchange/5544-getsrtmdata), MATLAB Central File Exchange. Retrieved November 24, 2022.
+
+* axesLabelsAlign3D.m (Matthew Arthington, 2010)
+  *  Matthew Arthington (2022). Align axes labels in 3D plot (https://www.mathworks.com/matlabcentral/fileexchange/27450-align-axes-labels-in-3d-plot), MATLAB Central File Exchange. Retrieved November 24, 2022.
+
 *
