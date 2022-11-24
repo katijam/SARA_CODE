@@ -18,7 +18,7 @@ External functions are used in the code and the below explains where you can dow
 * utm2deg.m and deg2utm.m (Rafael Palacios, 2006)
   * Rafael Palacios (2022). utm2deg (https://www.mathworks.com/matlabcentral/fileexchange/10914-utm2deg), MATLAB Central File Exchange. Retrieved November 24, 2022.
   * Rafael Palacios (2022). deg2utm (https://www.mathworks.com/matlabcentral/fileexchange/10915-deg2utm), MATLAB Central File Exchange. Retrieved November 24, 2022.
-  *
+  
 * GetSRTMData.m (Sebastian Hölz, 2004). Note for this function that the users will need NASA SRTM elevation files.
   * Sebastian Hölz (2022). GetSRTMData (https://www.mathworks.com/matlabcentral/fileexchange/5544-getsrtmdata), MATLAB Central File Exchange. Retrieved November 24, 2022.
 
