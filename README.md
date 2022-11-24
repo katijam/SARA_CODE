@@ -25,4 +25,8 @@ External functions are used in the code and the below explains where you can dow
 * axesLabelsAlign3D.m (Matthew Arthington, 2010)
   *  Matthew Arthington (2022). Align axes labels in 3D plot (https://www.mathworks.com/matlabcentral/fileexchange/27450-align-axes-labels-in-3d-plot), MATLAB Central File Exchange. Retrieved November 24, 2022.
 
-*
+* distinguishable_colors.m (Timothy E. Holy, 2010-2011)
+  * Tim Holy (2022). Generate maximally perceptually-distinct colors (https://www.mathworks.com/matlabcentral/fileexchange/29702-generate-maximally-perceptually-distinct-colors), MATLAB Central File Exchange. Retrieved November 24, 2022.
+
+* colorcet.m (Peter Kovesi, 2015)
+  * Peter Kovesi. Good Colour Maps: How to Design Them. arXiv:1509.03700 [cs.GR] 2015 (https://colorcet.com/download/index.html)
